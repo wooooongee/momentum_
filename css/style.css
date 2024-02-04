@@ -1,0 +1,44 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eee;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 90%;
+}
+
+.todo-list button {
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.clock {
+  text-align: center;
+}
+
+.quote {
+  width: 50%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.weather {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
